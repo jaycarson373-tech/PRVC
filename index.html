@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#06090c" />
+    <title>PRVC — Privacy for Solana</title>
+    <meta name="description" content="PRVC keeps your Solana trades private. Same apps, same terminals, no trail back to you." />
+    <meta property="og:title" content="PRVC — Privacy for Solana" />
+    <meta property="og:description" content="Same apps, same terminals, no trail back to you." />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="nav">
+      <a class="brand" href="#top" aria-label="PRVC home">
+        <img src="/favicon.svg" alt="" width="28" height="28" />
+        <span>PRVC</span>
+      </a>
+      <nav class="nav-links" aria-label="Main">
+        <a href="#how">How it works</a>
+        <a href="#features">Features</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <a class="btn btn-ghost nav-cta" href="#get">Launch app</a>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="dot"></span> Privacy layer for Solana</p>
+          <h1>Trade in the open.<br /><span class="glow">Stay unseen.</span></h1>
+          <p class="lede">PRVC routes your trades through a private wallet layer, so the apps and terminals you already use never trace back to your main wallet.</p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="#get">
+              <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 19h16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Get the extension
+            </a>
+            <a class="btn btn-ghost" href="#how">How it works <span aria-hidden="true">→</span></a>
+          </div>
+          <dl class="stats">
+            <div><dt>Linked wallets</dt><dd>0</dd></div>
+            <div><dt>Terminals</dt><dd>pump.fun · Axiom · GMGN</dd></div>
+          </dl>
+        </div>
+        <div class="hero-3d" id="head" aria-hidden="true"></div>
+      </section>
+
+      <section class="section" id="features">
+        <h2>Built for the trenches</h2>
+        <div class="cards">
+          <article class="card">
+            <div class="ico">◇</div>
+            <h3>Private by default</h3>
+            <p>Every trade comes from a fresh address. Copy-traders and wallet trackers see a stranger, not you.</p>
+          </article>
+          <article class="card">
+            <div class="ico">⌁</div>
+            <h3>Works where you trade</h3>
+            <p>Buy straight from your terminal's order panel with one extra click. No new app to learn.</p>
+          </article>
+          <article class="card">
+            <div class="ico">◎</div>
+            <h3>You hold the keys</h3>
+            <p>Non-custodial from end to end. PRVC never holds your funds or your seed phrase.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="how">
+        <h2>How it works</h2>
+        <ol class="steps">
+          <li><span>1</span><h3>Fund your private balance</h3><p>Move SOL in once. It is split and shielded before it ever touches a trade.</p></li>
+          <li><span>2</span><h3>Pick a token</h3><p>Paste a mint or choose “Buy via PRVC” right inside your terminal.</p></li>
+          <li><span>3</span><h3>Confirm and go</h3><p>See what you pay, the minimum you receive and the fee before you sign.</p></li>
+        </ol>
+      </section>
+
+      <section class="section faq" id="faq">
+        <h2>FAQ</h2>
+        <details><summary>Is PRVC custodial?</summary><p>No. Keys stay in your wallet; PRVC only builds the transactions you sign.</p></details>
+        <details><summary>Which chains?</summary><p>Solana first.</p></details>
+        <details><summary>Is there a token?</summary><p>Announcements come from our official X account only.</p></details>
+      </section>
+
+      <section class="final" id="get">
+        <h2>Go private in one click.</h2>
+        <a class="btn btn-primary" href="#top">Get the extension</a>
+      </section>
+    </main>
+
+    <footer class="foot">
+      <span>© PRVC</span>
+      <span class="mono">privacy · solana</span>
+    </footer>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
